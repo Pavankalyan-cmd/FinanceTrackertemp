@@ -13,15 +13,7 @@ import {
   signOut,
 } from "firebase/auth";
   
-const firebaseConfig = {
-  apiKey: "AIzaSyAQkOk7w9JoeWC9c0cjjCZqYZmdSYocWps",
-  authDomain: "financetracker-bb2a1.firebaseapp.com",
-  projectId: "financetracker-bb2a1",
-  storageBucket: "financetracker-bb2a1.firebasestorage.app",
-  messagingSenderId: "568135436161",
-  appId: "1:568135436161:web:3e91dbb10f6dcbdf6f8a80",
-  measurementId: "G-XVL8SGED7R",
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
